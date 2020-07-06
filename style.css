@@ -44,14 +44,6 @@ a {
     top: 0px;
 }
 
-/* #navbar-hover:hover #navbar-container {
-    top: 0px;
-} */
-
-/* #navbar-container:hover {
-    opacity: 1;
-} */
-
 #navbar {
     position: absolute;
     top: -13px;
@@ -251,6 +243,9 @@ h1 {
     #navbar {
         top: 40px;
     }
+    #navbar-hover {
+        height: 100px;
+    }
     ul {
         margin: 0;
     }
@@ -277,6 +272,9 @@ h1 {
 @media screen and (max-width: 380px) {
     body {
         overflow-x: hidden;
+    }
+    #navbar-hover {
+        height: 125px;
     }
     #contact-links a {
         margin: 5px;
