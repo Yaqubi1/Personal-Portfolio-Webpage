@@ -290,8 +290,8 @@ h1 {
 
   @media screen and (max-width: 322px) {
  
-    #navbar-hover {
-        height: 125px;
-    }
+    #navbar {
+        background-color: rgb(87, 121, 48);
+        margin: 0px;
 
   }

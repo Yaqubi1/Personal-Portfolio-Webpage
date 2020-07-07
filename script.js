@@ -7,7 +7,7 @@ window.onscroll = function() {
   } else {
     document.getElementById("navbar-container").style.top = "-50px";
     if (window.innerWidth < 732) {
-      document.getElementById("navbar-container").style.top = "-100px";
+      document.getElementById("navbar-container").style.top = "-150px";
     }
   }
   prevScrollpos = currentScrollPos;
