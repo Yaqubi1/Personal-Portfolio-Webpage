@@ -1,3 +1,7 @@
+html {
+    width: 100vw;
+}
+
 body {
     margin: 0;
 }
@@ -9,7 +13,7 @@ a {
 #topmenu {
     position: absolute;
     z-index: 1;
-    right: 40px;
+    right: calc(40px + 10vw);
     top: 5px;
 }
 
@@ -29,7 +33,7 @@ a {
     flex-wrap: wrap;
     z-index: 1;
     position: fixed;
-    width: 100%;
+    width: 110vw;
     height: 50px;
     top: 0px;
     background-color: rgb(87, 121, 48);
@@ -39,7 +43,7 @@ a {
 #navbar-hover {
     position: fixed;
     z-index: 1;
-    width: 100%;
+    width: 110vw;
     height: 50px;
     top: 0px;
 }
@@ -282,4 +286,12 @@ h1 {
     .contact-items {
         margin: 10px;
     }
+  }
+
+  @media screen and (max-width: 322px) {
+ 
+    #navbar-hover {
+        height: 125px;
+    }
+
   }
